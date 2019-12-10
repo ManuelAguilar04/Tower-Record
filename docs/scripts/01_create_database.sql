@@ -1,7 +1,4 @@
-CREATE SCHEMA `nw201903` ;
-CREATE USER 'demouser'@'%' IDENTIFIED BY 'carm3l1t4s';
-GRANT ALL ON nw201903.* TO 'demouser'@'%';
+CREATE SCHEMA `shop_online` ;
+CREATE USER 'user'@'%' IDENTIFIED BY 'negocios0601';
+GRANT ALL ON shop_online.* TO 'user'@'%';
 
---CREATE USER 'demouser'@'localhost' IDENTIFIED BY 'carm3l1t4s';
---GRANT ALL ON nw201903.* TO 'demouser'@'localhost' IDENTIFIED BY 'carm3l1t4s';
---FLUSH PRIVILEGES

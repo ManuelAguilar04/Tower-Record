@@ -1,4 +1,4 @@
-use nw201903;
+use shop_online;
 CREATE TABLE `usuario` (
   `usercod` bigint(10) NOT NULL AUTO_INCREMENT,
   `useremail` varchar(80) DEFAULT NULL,
